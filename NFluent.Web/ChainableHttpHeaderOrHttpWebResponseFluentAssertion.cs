@@ -20,7 +20,7 @@ namespace NFluent.Web
     /// Provides a way to chain another instance of <see cref="IHttpWebResponseFluentAssertion"/> or <see cref="IHttpHeaderFluentAssertion"/>.
     /// </summary>
     internal class ChainableHttpHeaderOrHttpWebResponseFluentAssertion : IChainableHttpHeaderOrHttpWebResponseFluentAssertion
-    {
+    { 
         private readonly string headerName;
         private readonly string headerContent;
         private readonly IHttpWebResponseFluentAssertion previousFluentAssertion;
